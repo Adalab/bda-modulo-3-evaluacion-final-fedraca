@@ -12,18 +12,27 @@ PARA EL SIGUIENTE ANALISIS DEBEMOS TENER INSTALADA UNA SERIA DE BIBLIOTECAS PARA
 """ 
 Tratamiento de datos
 # -----------------------------------------------------------------------
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
+-import pandas as pd
+
+-import numpy as np
+
+-import matplotlib.pyplot as plt
+
+-import seaborn as sns
+
 # Evaluar linealidad de las relaciones entre las variables
 # y la distribución de las variables
 # ------------------------------------------------------------------------------
-import scipy.stats as stats
-from scipy.stats import ttest_ind, norm, chi2_contingency
-from scipy.stats import shapiro
-from scipy.stats import mannwhitneyu
-from sklearn.linear_model import LinearRegression
+-import scipy.stats as stats
+
+-from scipy.stats import ttest_ind, norm, chi2_contingency
+
+-from scipy.stats import shapiro
+
+-from scipy.stats import mannwhitneyu
+
+-from sklearn.linear_model import LinearRegression
+
 
 
 # Imputación de nulos usando métodos avanzados estadísticos
