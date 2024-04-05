@@ -37,13 +37,13 @@ Tratamiento de datos
 
 # Imputación de nulos usando métodos avanzados estadísticos
 # -----------------------------------------------------------------------
-from sklearn.impute import SimpleImputer
-from sklearn.experimental import enable_iterative_imputer
-from sklearn.impute import IterativeImputer
-from sklearn.impute import KNNImputer
+-from sklearn.impute import SimpleImputer
+-from sklearn.experimental import enable_iterative_imputer
+-from sklearn.impute import IterativeImputer
+-from sklearn.impute import KNNImputer
 
 # Configuración
 # -----------------------------------------------------------------------
-pd.set_option('display.max_columns', None) # para poder visualizar todas las columnas de los DataFrames
+-pd.set_option('display.max_columns', None) # para poder visualizar todas las columnas de los DataFrames
 """
 
